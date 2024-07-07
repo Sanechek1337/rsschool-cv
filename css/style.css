@@ -38,6 +38,7 @@ html {
 
 body {
   background: linear-gradient(180deg, rgba(45, 69, 125, 1) 0%, rgba(15, 23, 42, 1) 100%);
+  overflow-x: hidden;
 }
 
 main {
@@ -113,4 +114,10 @@ main {
 .social-link.discord {
   color: #5865f2;
   border-color: #5865f2;
+}
+
+.vertical-line {
+  width: 100vw;
+  border: 1px solid var(--light-text-secondary);
+  margin-top: 32px;
 }
