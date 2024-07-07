@@ -27,6 +27,10 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 html {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: var(--light-border);
@@ -65,10 +69,48 @@ main {
 .email-location-block {
   display: flex;
   gap: 16px;
+  justify-content: center;
 }
 
 .email-location {
   display: flex;
   gap: 4px;
   align-items: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.social-link {
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 2px solid;
+}
+
+.social-link.linkedin {
+  color: #0a66c2;
+  border-color: #0a66c2;
+}
+
+.social-link.tg {
+  color: #0088cc;
+  border-color: #0088cc;
+}
+
+.social-link.github {
+  color: #0d1117;
+  border-color: #0d1117;
+}
+
+.social-link.discord {
+  color: #5865f2;
+  border-color: #5865f2;
 }
