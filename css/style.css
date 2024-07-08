@@ -173,3 +173,16 @@ main {
   justify-content: flex-end;
   gap: 4px;
 }
+
+.skills-list {
+  color: var(--light-text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill {
+  background-color: var(--light-label-background);
+  padding: 4px 6px;
+  border-radius: 6px;
+}
