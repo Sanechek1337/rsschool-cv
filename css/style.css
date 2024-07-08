@@ -129,7 +129,7 @@ header {
   border-color: #5865f2;
 }
 
-.underheader-vertical-line {
+.fullwidth-vertical-line {
   width: 100vw;
   border: 1px solid var(--light-text-secondary);
   margin-top: 32px;
@@ -197,4 +197,16 @@ header {
   background-color: var(--light-label-background);
   padding: 4px 6px;
   border-radius: 6px;
+}
+
+footer {
+  max-width: 936px;
+  margin: 32px auto 64px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social-link.rs-school {
+  border-color: #ffda1f;
 }
