@@ -1,69 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Rs School CV</title>
   </head>
   <body>
-    <h1>rsschool-cv</h1>
+    <header>
+      <h1 class="fullname">Lyan Alexandr</h1>
 
-    <h2>1. Full name</h2>
-    <p>&emsp;&emsp;Lyan Alexandr</p>
+      <p class="position">Front-End Developer</p>
 
-    <h2>2. Contact Information:</h2>
-    <ul>
-      <li><b>Email:</b>rednaxela659@gmail.com</li>
-      <li><b>Telegram:</b>ElPsyKongroo1</li>
-      <li><b>Discord:</b>Alexandr (Sanechek1337)</li>
-    </ul>
+      <div class="contacts">
+        <div class="email-location-block">
+          <div class="email-location location">
+            <img src="./img/map-icon.svg" alt="map icon" />
+            <p>Kazakhstan, Kokshetau</p>
+          </div>
 
-    <h2>3. About me:</h2>
-    <p>
-      I work as a front-end developer. I'm a self-taught programmer, I learned
-      from YouTube videos, some courses, documentation, etc. My current goal is
-      to become a more qualified specialist and continue to develop in the
-      front-end field.
-    </p>
+          <div class="email-location email">
+            <img src="./img/email-icon.svg" alt="email icon" />
+            <p>rednaxela659@gmail.com</p>
+          </div>
+        </div>
 
-    <h2>4. Skills:</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JS/TS</li>
-      <li>React</li>
-      <li>Redux</li>
-      <li>Git</li>
-    </ul>
+        <div class="social-links">
+          <a
+            class="social-link linkedin"
+            href="https://www.linkedin.com/in/lyan-alexandr/"
+            target="_blank"
+          >
+            <img src="./img/linkedin-logo.svg" alt="linkedin logo" />
+            /lyan-alexandr
+          </a>
 
-    <h2>5. Code Example</h2>
-    <pre>
-      const isEven = (number) =&gt; {
-      if (number === 1) return false;
-      if (number === 2) return true;
-      if (number === 3) return false;
-      if (number === 4) return true;
-      if (number === 5) return false;
-      if (number === 6) return true;
-      if (number === 7) return false;
-      if (number === 8) return true;
-      if (number === 9) return false;
-      if (number === 10) return true;
-      if ...
-      }
-    </pre>
+          <a
+            class="social-link tg"
+            href="https://t.me/ElPsyKongroo1"
+            target="_blank"
+          >
+            <img src="./img/tg-logo.svg" alt="telegram logo" />
+            @ElPsyKongroo1
+          </a>
 
-    <h2>6. Work Experience</h2>
-    <p>I have 2 month work experience as Frontend developer.</p>
+          <a
+            class="social-link github"
+            href="https://github.com/Sanechek1337"
+            target="_blank"
+          >
+            <img
+              src="./img/github-logo.svg"
+              alt="github logo"
+              width="14"
+              height="14"
+            />
+            /Sanechek1337
+          </a>
 
-    <h2>7. Education</h2>
-    <p>I have bachelor and master degrees of Information Technology.</p>
+          <a class="social-link discord" href="#">
+            <img src="./img/discord-logo.svg" alt="discord logo" />
+            Alexandr (Sanechek1337)
+          </a>
+        </div>
+      </div>
 
-    <h2>8. Languages</h2>
-    <ul>
-      <li>Russian (native)</li>
-      <li>English (A2~B1)</li>
-    </ul>
+      <div class="fullwidth-vertical-line"></div>
+    </header>
+
+    <main>
+      <div class="info-block about-me">
+        <h2 class="title about-title">About me</h2>
+
+        <p class="info about-into">
+          I work as a front-end developer. I'm a self-taught programmer, I
+          learned from YouTube videos, some courses, documentation, etc. My
+          current goal is to become a more qualified specialist and continue to
+          develop in the front-end field.
+        </p>
+      </div>
+
+      <div class="vertical-line"></div>
+
+      <div class="info-block education">
+        <h2 class="title education-title">Education</h2>
+
+        <div class="info">
+          <div class="info-block-content">
+            <p class="text-info">
+              Abay Myrzakhmetov Kokshetau University - Bachelor's degree, IT
+            </p>
+            <p class="date-info">
+              <img src="./img/calendar-icon.svg" alt="calendar icon" />
+              2018 - 2021
+            </p>
+          </div>
+
+          <div class="info-block-content master">
+            <p class="text-info">
+              Shokan Ualikhanov Kokshetau State University - Master's degree, IT
+            </p>
+            <p class="date-info">
+              <img src="./img/calendar-icon.svg" alt="calendar icon" />
+              2021 - 2023
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vertical-line"></div>
+
+      <div class="info-block experience">
+        <h2 class="title experience-title">Experience</h2>
+
+        <div class="info">
+          <div class="info-block-content">
+            <p class="text-info">
+              Shokan Ualikhanov Kokshetau State University - Front-End Developer
+            </p>
+            <p class="date-info">
+              <img src="./img/calendar-icon.svg" alt="calendar icon" />
+              Sep 2023 - Present
+            </p>
+          </div>
+
+          <div class="info-block-content">
+            <p class="text-info">
+              Abay Myrzakhmetov Kokshetau University - System Technician
+            </p>
+            <p class="date-info">
+              <img src="./img/calendar-icon.svg" alt="calendar icon" />
+              Jul 2021 - Dec 2022
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vertical-line"></div>
+
+      <div class="info-block skills">
+        <h2 class="title skills-title">Skills</h2>
+
+        <div class="info">
+          <div class="skills-list">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">TypeScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Redux</div>
+            <div class="skill">Git</div>
+            <div class="skill">Material UI</div>
+            <div class="skill">Mantine UI</div>
+            <div class="skill">NextJS</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vertical-line"></div>
+
+      <div class="info-block code">
+        <h2 class="title skills-title">Code example</h2>
+
+        <div class="info">
+          <pre class="code-expample">
+            const isEven = (number) => {
+              if (number === 1) return false;
+              if (number === 2) return true;
+              if (number === 3) return false;
+              if (number === 4) return true;
+              if (number === 5) return false;
+              if (number === 6) return true;
+              if (number === 7) return false;
+              if (number === 8) return true;
+              if (number === 9) return false;
+              if (number === 10) return true;
+              if ...
+            }
+          </pre>
+        </div>
+      </div>
+
+      <div class="vertical-line"></div>
+
+      <div class="info-block">
+        <h2>Languages</h2>
+
+        <div class="info">
+          <div class="skills-list">
+            <div class="skill">Russian (native)</div>
+            <div class="skill">English (A2~B1)</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="fullwidth-vertical-line"></div>
+
+    <footer>
+      <a
+        class="social-link rs-school"
+        href="https://rs.school/courses/javascript-preschool-ru"
+        target="_blank"
+      >
+        <img
+          src="./img/rs-school-logo.svg"
+          alt="rs-school logo"
+          width="80px"
+          height="40px"
+        />
+      </a>
+
+      <p>2024</p>
+
+      <a
+        class="social-link github"
+        href="https://github.com/Sanechek1337"
+        target="_blank"
+      >
+        <img
+          src="./img/github-logo.svg"
+          alt="github logo"
+          width="14"
+          height="14"
+        />
+        /Sanechek1337
+      </a>
+    </footer>
   </body>
 </html>
